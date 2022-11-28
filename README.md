@@ -9,6 +9,7 @@ If you have more than one profile and don't know which one to choose. Choose the
 If you don't have a user.js inside your folder, just create one
 
 <br>
+
 # Further Tweaks
 
 If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change "ui.key.menuAccessKey" to False
