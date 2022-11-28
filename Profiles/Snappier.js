@@ -1,4 +1,4 @@
-// This is an alternative profile which is less fluid/smooth and more snappy
+//
 // COPY THIS AND PUT IN USER.JS
 //******************************//
 //*      Snappier Profile      *//
