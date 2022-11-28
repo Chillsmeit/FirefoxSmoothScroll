@@ -4,7 +4,7 @@ This repo contains modified user.js files that change the default scrolling beha
 I made various versions, although these were made on a 35'' UltraWide Monitor, speed settings *may* have to be adjusted<br>
 
 Just copy the code of the profile you want and paste it in your user.js<br>
-The user.js file is located in C:\Users\<yourusername>\AppData\Roaming\Firefox\Profiles\<yourprofilename>\
+The user.js file is located in C:\Users\<yourusername>\AppData\Roaming\Mozilla\Firefox\Profiles\<yourprofilename>\
 If you have more than one profile and don't know which one to choose, go with the most recent one (Date modified.)<br>
 If you don't have a user.js inside your folder, just create one.
 
