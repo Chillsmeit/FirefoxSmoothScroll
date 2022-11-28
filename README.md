@@ -1,11 +1,14 @@
-# SnapFluidFox
+# SmoothScrollFirefox
 
-This repo contains a modified user.js files that change the default scrolling behaviour in Firefox.<br>
-It's supposed to be snappy and fluid (made it for my 35''UW, speed settings may have to be adjusted)<br>
-Just copy the code of the profile you chose and paste it in your user.js
+This repo contains modified user.js files that change the default scrolling behaviour in Firefox.<br>
+I made various versions, although these were made on a 35'' UltraWide Monitor, speed settings *may* have to be adjusted<br>
 
-I personally use the SnapFluidFoxFaster.js
+Just copy the code of the profile you want and paste it in your user.js
+The user.js file is located in C:\Users\<yourusername>\AppData\Roaming\Firefox\Profiles\<yourprofilename>\
+If you have more than one profile and don't know which one to choose. Choose the one with most recent Date modified.
+If you don't have a user.js inside your folder, just create one
 
+<br>
 # Further Tweaks
 
 If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change "ui.key.menuAccessKey" to False
