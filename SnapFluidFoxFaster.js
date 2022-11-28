@@ -1,3 +1,5 @@
+// This profile is close to default but faster
+// COPY THIS AND PUT IN USER.JS
 //*****************************//
 //*SnapFluidFox Faster Profile*//
 //*****************************//
