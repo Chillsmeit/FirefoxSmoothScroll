@@ -1,7 +1,7 @@
 // This is an alternative profile which is less fluid/smooth and more snappy
 // COPY THIS AND PUT IN USER.JS
 //**********************//
-//*Snappy Profile*//
+//*   Snappy Profile   *//
 //**********************//
 user_pref("general.smoothScroll",                                       true);// Default Settings Below and edited out
 user_pref("general.smoothScroll.msdPhysics.enabled",                    true);// [false]
