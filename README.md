@@ -12,4 +12,4 @@ If you don't have a user.js inside your folder, just create one.
 
 # Further Tweaks
 
-If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change "ui.key.menuAccessKey" to False
+If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change "ui.key.menuAccessKeyFocuses" to False
