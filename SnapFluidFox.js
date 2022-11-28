@@ -1,4 +1,4 @@
-//  Just Drag and Drop  //
+// COPY THIS AND PUT IN USER.JS
 //**********************//
 //*SnapFluidFox Profile*//
 //**********************//
