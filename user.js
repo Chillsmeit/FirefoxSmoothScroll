@@ -4,11 +4,11 @@
 user_pref("general.smoothScroll",                                       true);// Default Settings Below and edited out
 user_pref("general.smoothScroll.msdPhysics.enabled",                    true);// [false]
 user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS",   12);// [120] fling
-user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant",   550);// [1250]
-user_pref("general.smoothScroll.msdPhysics.regularSpringConstant",       600);// [1000]
-user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS",           25);// [12]
+user_pref("general.smoothScroll.msdPhysics.motionBeginSpringConstant",   300);// [1250]
+user_pref("general.smoothScroll.msdPhysics.regularSpringConstant",       350);// [1000]
+user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaMS",           20);// [12]
+user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant",      300);// [2000]
 user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio",     "1.5");// [1.3]
-user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant",      450);// [2000]
 user_pref("general.smoothScroll.currentVelocityWeighting",             "1.0");// ["0.25"]
 user_pref("general.smoothScroll.stopDecelerationWeighting",            "1.0");// ["0.4"]
 
@@ -20,7 +20,7 @@ user_pref("mousewheel.system_scroll_override.enabled",                  true);//
 
 // Pixel count mousewheel scroll multipliers
 user_pref("mousewheel.default.delta_multiplier_x",                       100);// [100]
-user_pref("mousewheel.default.delta_multiplier_y",                       100);// [100]
+user_pref("mousewheel.default.delta_multiplier_y",                       200);// [100]
 user_pref("mousewheel.default.delta_multiplier_z",                       100);// [100]
 
 //
@@ -45,8 +45,8 @@ user_pref("general.smoothScroll.mouseWheel.durationMinMS",                50);//
 user_pref("layers.async-pan-zoom.enabled",                              true);// [true]
 user_pref("layout.css.scroll-behavior.spring-constant",                "250");// [250]
 user_pref("mousewheel.transaction.timeout",                             1500);// [1500]
-user_pref("mousewheel.acceleration.factor",                                3);// [10]
-user_pref("mousewheel.acceleration.start",                                 0);// [-1]
+user_pref("mousewheel.acceleration.factor",                                10);// [10]
+user_pref("mousewheel.acceleration.start",                                 -1);// [-1]
 user_pref("mousewheel.min_line_scroll_amount",                             5);// [5]
 user_pref("toolkit.scrollbox.horizontalScrollDistance",                    5);// [5]
 user_pref("toolkit.scrollbox.verticalScrollDistance",                      3);// [3]
