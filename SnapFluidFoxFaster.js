@@ -47,9 +47,9 @@ user_pref("general.smoothScroll.mouseWheel.durationMinMS",                50);//
 user_pref("layers.async-pan-zoom.enabled",                              true);// [true]
 user_pref("layout.css.scroll-behavior.spring-constant",                "250");// [250]
 user_pref("mousewheel.transaction.timeout",                             1500);// [1500]
-user_pref("mousewheel.acceleration.factor",                                12);// [10]
-user_pref("mousewheel.acceleration.start",                                 -1);// [-1]
-user_pref("mousewheel.min_line_scroll_amount",                             5);// [5]
+user_pref("mousewheel.acceleration.factor",                               10);// [10]
+user_pref("mousewheel.acceleration.start",                                -1);// [-1]
+user_pref("mousewheel.min_line_scroll_amount",                            20);// [5]
 user_pref("toolkit.scrollbox.horizontalScrollDistance",                    5);// [5]
 user_pref("toolkit.scrollbox.verticalScrollDistance",                      3);// [3]
 //
