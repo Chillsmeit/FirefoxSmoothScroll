@@ -1,5 +1,5 @@
 //**********************//
-//*SnapFluidFox Profile*//
+//*    Edge Profile    *//
 //**********************//
 user_pref("general.smoothScroll",                                       true);// Default Settings Below and edited out
 user_pref("general.smoothScroll.msdPhysics.enabled",                    true);// [false]
