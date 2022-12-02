@@ -51,3 +51,5 @@ user_pref("mousewheel.acceleration.start",                                 0);//
 user_pref("mousewheel.min_line_scroll_amount",                             5);// [5]
 user_pref("toolkit.scrollbox.horizontalScrollDistance",                    5);// [5]
 user_pref("toolkit.scrollbox.verticalScrollDistance",                      3);// [3]
+//resistFingerpriting changes scrolling smoothness and makes it feel clunky if it's set to true.Set it to true if you prefer privacy over scroll smoothness
+user_pref("privacy.resistFingerprinting",                              false);//
