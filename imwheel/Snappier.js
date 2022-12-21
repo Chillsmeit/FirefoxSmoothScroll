@@ -48,7 +48,7 @@ user_pref("layout.css.scroll-behavior.spring-constant",                "250");//
 user_pref("mousewheel.transaction.timeout",                             1500);// [1500]
 user_pref("mousewheel.acceleration.factor",                                1);// [10]
 user_pref("mousewheel.acceleration.start",                                 0);// [-1]
-user_pref("mousewheel.min_line_scroll_amount",                             3);// [5]
+user_pref("mousewheel.min_line_scroll_amount",                             1);// [5]
 user_pref("toolkit.scrollbox.horizontalScrollDistance",                    5);// [5]
 user_pref("toolkit.scrollbox.verticalScrollDistance",                      1);// [3]
 //If "privacy.resistFingerprinting" is set to "true", it changes the scrolling behaviour and makes it less smooth/clunky
