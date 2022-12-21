@@ -10,6 +10,11 @@ If you don't have a user.js inside your folder, just create one.
 
 <br>
 
+# imwheel
+
+imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome. In my case, I use Pop!_OS.
+I made a copy of the Snappier profile to be used alongside imwheel in speed 2. (It's slightly faster than the default profile)
+
 # Further Tweaks
 
 If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change "ui.key.menuAccessKeyFocuses" to False
