@@ -10,7 +10,7 @@ If you don't have a user.js inside your folder, just create one.
 
 <br>
 
-# imwheel
+# Linux & imwheel
 
 imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.
 I made a copy of the Snappier profile to be used alongside imwheel in speed 2. (It's slightly faster than the default profile)
