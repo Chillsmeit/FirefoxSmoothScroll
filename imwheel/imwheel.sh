@@ -36,6 +36,3 @@ sed -i "s/\($TARGET_KEY *Button4, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the s
 sed -i "s/\($TARGET_KEY *Button5, *\).*/\1$NEW_VALUE/" ~/.imwheelrc # find the string Button5, and write new value.
 
 cat ~/.imwheelrc
-imwheel -kill -b "4 5"
-# Added -b "4 5" compared to the original
-# It limits imwheel to only affect the mousewheel and not the LMButton and RMButton
