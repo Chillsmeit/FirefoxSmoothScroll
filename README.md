@@ -16,10 +16,11 @@ If you don't have a user.js inside your folder, just create one.
 
 imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.<br>
 Install imwheel first then run the example script.<br>
+<br>
 This script will show a simple GUI to edit the multiplier you wanna add to your scroll speed and will bind it to the imwheel service.<br>
 If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
-The command to run imwheel on startup would be:<br>
-```imwheel -kill -b "4 5"```<br>
+<br>
+The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br>
 (By adding -kill -b "4 5" in the end, will start imwheel and only affect the mousewheel and not the forward and backward button)
 
 **Made a profile to be used alongside imwheel in speed 2 for firefox.**
