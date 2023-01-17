@@ -21,7 +21,7 @@ How to use imwheel in case you need it:
 imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.<br>
 Install imwheel first then run the example script (imwheel.sh)<br>
 <br>
-This script will show a simple GUI to edit the multiplier you wanna add to your scroll speed (basically a config for the imwheel service).<br>
+The example script will show a simple GUI to edit the multiplier you wanna add to your scroll speed (basically a config for the imwheel service).<br>
 If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
 <br>
 The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br>
