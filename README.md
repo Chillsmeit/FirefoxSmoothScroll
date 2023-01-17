@@ -20,7 +20,7 @@ The command to run imwheel on startup would be:<br>
 ```imwheel -kill -b "4 5"```<br>
 (By adding -kill -b "4 5" in the end, will start imwheel and only affect the mousewheel and not the forward and backward button)
 
-**Tried to replicate the Snappier profile to be used alongside imwheel in speed 2.**
+**Made a profile to be used alongside imwheel in speed 2 for firefox.**
 
 # Further Tweaks
 
