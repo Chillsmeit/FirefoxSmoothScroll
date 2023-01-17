@@ -6,6 +6,7 @@ I made different versions, these were made on a 35'' UltraWide Monitor with Wind
 Just copy the code of the profile you want and paste it in your user.js<br>
 The user.js file is located in:<br>
 `C:\Users\<yourusername>\AppData\Roaming\Mozilla\Firefox\Profiles\<yourprofilename>\`<br>
+<br>
 If you have more than one profile and don't know which one to choose, go with the most recent one (Date modified.)<br>
 If you don't have a user.js inside your folder, just create one.
 
