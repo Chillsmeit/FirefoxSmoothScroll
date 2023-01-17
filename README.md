@@ -10,11 +10,18 @@ If you don't have a user.js inside your folder, just create one.
 
 <br>
 
-# Linux & imwheel
+# Linux & imwheel profile and how to:
 
-imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.
-Tried to replicate the Snappier profile to be used alongside imwheel in speed 2.
+imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.<br>
+Install imwheel first then run the example script.<br>
+This script will show a simple GUI to edit the multiplier you wanna add to your scroll speed and will bind it to the imwheel service.<br>
+If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
+The command to run imwheel on startup would be:<br>
+```imwheel -kill -b "4 5"```<br>
+(By adding -kill -b "4 5" in the end, will start imwheel and only affect the mousewheel and not the forward and backward button)
+
+**Tried to replicate the Snappier profile to be used alongside imwheel in speed 2.**
 
 # Further Tweaks
 
-If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change "ui.key.menuAccessKeyFocuses" to False
+If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change ```ui.key.menuAccessKeyFocuses``` to False
