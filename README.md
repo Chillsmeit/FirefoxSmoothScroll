@@ -10,7 +10,7 @@ If you don't have a user.js inside your folder, just create one.
 
 <br>
 
-# Linux & imwheel profile and how to:
+# Linux & imwheel profile how to:
 
 imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.<br>
 Install imwheel first then run the example script.<br>
