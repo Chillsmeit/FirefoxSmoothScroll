@@ -1,4 +1,4 @@
-# Original script from http://www.nicknorton.net and modified by Chillsmeit
+# Original script from http://www.nicknorton.net
 # GUI for mouse wheel speed using imwheel in Gnome
 # imwheel needs to be installed for this script to work!
 # sudo apt-get install imwheel
