@@ -7,6 +7,8 @@ Just copy the code of the profile you want and paste it in your user.js<br>
 
 To find where your user.js is, just type ```about:support``` in the firefox address bar and open the Profile Directory<br>
 
+*Note*: If you use arkenfox.js 
+
 # Linux & imwheel users:
 
 **I made a profile to be used alongside imwheel in speed 2 for firefox.**
