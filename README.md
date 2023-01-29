@@ -7,7 +7,8 @@ Just copy the code of the profile you want and paste it in your user.js<br>
 
 To find where your user.js is, just type ```about:support``` in the firefox address bar and open the Profile Directory<br>
 
-*Note*: If you use arkenfox.js 
+*Note*: If you use arkenfox.js and you have "privacy.resistFingerprinting" set to "true", it changes the scrolling behaviour and makes it less smooth/clunky
+//Change it to true if you prefer Privacy over scrolling smoothness
 
 # Linux & imwheel users:
 
