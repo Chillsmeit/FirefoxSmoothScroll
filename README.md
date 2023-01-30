@@ -9,7 +9,7 @@ To find where your user.js is, just type ```about:support``` in the firefox addr
 
 *Note: If you use arkenfox.js and have ```user_pref("privacy.resistFingerprinting", true);``` it will interfere with scrolling smoothness since it locks the framerate to 60hz.*
 
-# Linux & imwheel users:
+# Linux imwheel users:
 
 **I made a profile to be used alongside imwheel in speed 2 for firefox.**
 
