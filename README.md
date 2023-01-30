@@ -15,15 +15,18 @@ To find where your user.js is, just type ```about:support``` in the firefox addr
 
 How to use imwheel in case you need it:
 
-imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome.<br>
-Install imwheel first then run the example script (imwheel.sh)<br>
+imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome if you feel like your scrolling speed it too slow.<br>
+Install imwheel first then run the example script "imwheel.sh" which was provided by http://www.nicknorton.net<br>
 <br>
 The example script will show a simple GUI to edit the multiplier you wanna add to your scroll speed.<br>
+For this profile to work the best, use speed 2.<br>
 If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
 <br>
 The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br>
 (By adding -kill -b "4 5" in the end, it will start imwheel and only change the mousewheel. This way it won't interfere with the forward and backward button)
 
-# Further Tweaks
+# Random Firefox Tweaks
 
-If you're annoyed like me and Alt is always opening the Firefox menu, go to About:config and change ```ui.key.menuAccessKeyFocuses``` to False
+Disabling ALT opening the firefox menu. Turn ```ui.key.menuAccessKeyFocuses``` to False
+Enabling middle mouse button autoscrolling in firefox for Linux. Turn ```general.autoScroll``` to True
+Making the Firefox UI look bigger. Change the ```layout.css.devPixelsPerPx``` value. For example, I use use 1.15
