@@ -13,7 +13,7 @@ To find where your user.js is, just type ```about:support``` in the firefox addr
 
 **I made a profile to be used alongside imwheel in speed 2 for firefox.**
 
-How to use imwheel in case you need it:
+What is imwheel and how to use it:
 
 imwheel let's you change your scrolling speed in Linux, it's usually needed in Gnome if you feel like your scrolling speed it too slow.<br>
 Install imwheel first then run the example script "imwheel.sh" which was provided by http://www.nicknorton.net<br>
