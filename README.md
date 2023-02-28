@@ -27,6 +27,6 @@ The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br
 
 # Random Firefox Tweaks
 
-Disabling ALT opening the firefox menu. Turn ```ui.key.menuAccessKeyFocuses``` to False<br>
-Enabling middle mouse button autoscrolling in firefox for Linux. Turn ```general.autoScroll``` to True<br>
-Making the Firefox UI look bigger. Change the ```layout.css.devPixelsPerPx``` value. For example, I use use 1.15<br>
+To disable ALT opening the firefox menu, turn ```ui.key.menuAccessKeyFocuses``` to False<br>
+To autoscrolling in Firefox for Linux, turn ```general.autoScroll``` to True<br>
+To make Firefox UI look bigger wwithout using global scalling, change the ```layout.css.devPixelsPerPx``` value. For example, I use use 1.15<br>
