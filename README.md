@@ -23,10 +23,10 @@ For this profile to work the best, use speed 2.<br>
 If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
 <br>
 The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br>
-(By adding -kill -b "4 5" in the end, it will start imwheel and only change the mousewheel. This way it won't interfere with the forward and backward button)
+(By adding -kill -b "4 5" in the end, it will start imwheel and only change the mousewheel. This way it won't interfere with the forward and backward buttons)
 
 # Random Firefox Tweaks
 
 To disable ALT opening the firefox menu, turn ```ui.key.menuAccessKeyFocuses``` to False<br>
-To autoscrolling in Firefox for Linux, turn ```general.autoScroll``` to True<br>
+To enable autoscrolling in Firefox for Linux, turn ```general.autoScroll``` to True<br>
 To make Firefox UI look bigger wwithout using global scalling, change the ```layout.css.devPixelsPerPx``` value. For example, I use use 1.15<br>
