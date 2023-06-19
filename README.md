@@ -1,7 +1,7 @@
 # SmoothScrollFirefox
 
 This repo contains modified user.js files that change the default scrolling behaviour in Firefox.<br>
-I made different versions, these were made on a 35'' UltraWide Monitor with Windows, speed settings *may* have to be adjusted<br>
+I made different versions, these were made on a 35'' UltraWide Monitor, speed settings *may* have to be adjusted<br>
 
 Just copy the code of the profile you want and paste it in your user.js<br>
 
