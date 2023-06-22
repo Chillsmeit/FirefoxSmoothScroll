@@ -27,7 +27,7 @@ The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br
 
 # imwheel per-app basis:
 
-The above steps make imwheel work on all apps. If you want to change the scrolling speed on a per app basis, you can do othe following for example:<br>
+The above steps make imwheel work on all apps. If you want to change the scrolling speed on a per app basis instead, you can do the following **after doing the above steps**, for example:<br>
 ```
 nano .imwheelrc
 ```
