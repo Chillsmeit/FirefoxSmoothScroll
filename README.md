@@ -41,7 +41,7 @@ Control_L, Down, Control_L|Button5
 Shift_L,   Up,   Shift_L|Button4
 Shift_L,   Down, Shift_L|Button5
 ```
-To know the window class name in x11, do `xprop | grep WM_CLASS` then the click the window you want.
+To know the window class name in x11, do `xprop | grep WM_CLASS` then click the window you want.
 
 # Random Firefox Tweaks
 
