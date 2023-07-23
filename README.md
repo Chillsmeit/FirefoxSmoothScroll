@@ -1,6 +1,6 @@
 # SmoothScrollFirefox
 
-**Works in Windows, Linux and MacOS**<br>
+**Works in Windows, Linux and MacOS** *(Linux users, if you use imwheel, scroll down)* <br>
 This repo contains modified `user.js` files that change the default scrolling behaviour in Firefox.<br>
 These should work in Librewolf and Mullvad Browser since they're firefox forks.<br>
 
@@ -16,18 +16,26 @@ Check the `Firefox Tweaks` folder in this repo
 
 ### Cosmetic Tweaks:
 
-Shorter flexible spaces<br>
-Shorter upper bar and tabs *(optional)* <br>
-Smaller and less intrusive PiP icon that shows up in the upper left corner in videos<br>
+Shorter flexible spaces like this:<br>
+![Untitled2](https://github.com/Chillsmeit/SmoothScrollFirefox/assets/93094077/9acca1d7-8b90-432b-b457-6b827ecd89bc) <br>
+![Untitled](https://github.com/Chillsmeit/SmoothScrollFirefox/assets/93094077/9f6aa784-6c26-4d55-ab5e-e1f433ee63db) 
+
+Smaller and less intrusive PiP icon that shows up in the upper left corner in videos:<br>
 *(the first time the Pip icon shows up can be a bit bugged. Just click on it the first time and restart your browser)* <br>
 <br>
-To enable these changes, type `about:support` in the firefox address bar and open the Profile Directory<br>
-Create a folder called `chrome`, inside this folder create two files called `userChrome.css` and `userContent.css`
+![Wilderness](https://github.com/Chillsmeit/SmoothScrollFirefox/assets/93094077/59f55333-335d-4fd9-8b1e-9f5627105022) <br>
+<br>
+**To enable these changes**, type `about:support` in the firefox address bar and open the Profile Directory<br>
+Create a folder called `chrome`, inside this folder create two files called `userChrome.css` and `userContent.css`.<br>
+Copy and paste the contents in this repo `Firefox Tweaks/Chrome` to your respective files.
 
-### Configs Tweaks *(I also use Arkenfox)*:
-In `about:config`:<br>
+### Configs Tweaks:
 
-Disable WebRTC *(this leaks your IP address even if you use a VPN)*:<br>
+These are also available in the `tweaks.js`file in the `Firefox Tweaks` folder in this repo.<br>
+You can copy and paste the contents you want to your `user.js` in your profile folder.<br>
+You can also change these in `about:config`:<br>
+
+Disable WebRTC *(this leaks your IP address even if you use a VPN but some websites need it)*:<br>
 set `media.peerconnection.enabled` to `False`<br>
 
 Disable ALT opening firefox menu:<br>
