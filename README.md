@@ -11,8 +11,9 @@ To find where your `user.js` is, just type ```about:support``` in the firefox ad
 This should only be noticeable in monitors with a higher refresh rate.*
 
 # My Firefox Tweaks
+Check the `Firefox Tweaks` folder in this repo
 
-### Cosmetic Tweaks
+### Cosmetic Tweaks:
 
 Shorter flexible spaces<br>
 Shorter upper bar and tabs*(optional)*<br>
