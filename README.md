@@ -32,7 +32,7 @@ Copy and paste the contents in this repo `Firefox Tweaks/Chrome` to your respect
 ### Configs Tweaks:
 
 These are also available in the `tweaks.js`file in the `Firefox Tweaks` folder in this repo.<br>
-You can copy and paste the contents you want to your `user.js` in your profile folder.<br>
+You can copy the contents you want from it and paste it into your `user.js` in your profile folder.<br>
 You can also change these in `about:config`:<br>
 
 Disable WebRTC *(this leaks your IP address even if you use a VPN but some websites need it)*:<br>
