@@ -1,0 +1,36 @@
+/* How to
+
+1. Open Firefox profile folder: In address bar write > about:support > Go to "Profile Folder" > "Open Folder"
+   Create a "chrome" (sub)folder in this directory.
+   Save this file as 'userChrome.css' inside "chrome" folder or add code to an existing userChrome.css file.
+
+2. Open config area: In address bar write > about:config > modify/add the following values/settings:
+
+   toolkit.legacyUserProfileCustomizations.stylesheets > true   ||  enables custom style sheets 
+   browser.compactmode.show > true   ||  shows 'Compact mode' in customizing mode (OPTIONAL)
+   browser.uidensity > 1   ||  enables compact mode (OPTIONAL)
+
+3. Restart browser */
+
+/* Shorter Flexible Spaces */
+#nav-bar toolbarspring {
+    min-width: 25px !important;
+    max-width: 25px !important;
+}
+
+/* Compact toolbar and main toolbarbuttons */
+#main-window[uidensity="compact"] {
+  --toolbarbutton-outer-padding: 4px !important;
+  --toolbarbutton-inner-padding: 4px !important;
+  --bookmark-block-padding: 4px !important;
+}
+
+/* Compact tabs */
+#main-window[uidensity="compact"]  {
+  --tab-min-height: 31px !important;
+}
+#main-window[uidensity="compact"] .tab-close-button {
+  width: 17px !important;
+  height: 15px !important;
+  padding: 3px 3px !important;
+}
