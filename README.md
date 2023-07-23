@@ -83,7 +83,7 @@ Run the script:
 ```
 
 The example script will show a simple GUI with zenity to edit the multiplier you wanna add to your scroll speed.<br>
-For this profile to work the best, use speed 2.<br>
+For this profile to work correctly, please use speed 2.<br>
 If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
 <br>
 The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br>
