@@ -1,0 +1,6 @@
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);//Enables customization (chrome folder)
+user_pref("network.http.referer.XOriginPolicy", 0);//Breaks some Websites if set to 1
+user_pref("privacy.resistFingerprinting", false);//Locks scrolling to 60hz if set to true
+user_pref("ui.key.menuAccessKeyFocuses", false);//Turn off Alt key menu
+user_pref("general.autoScroll", true);//Enables scrollclick scrolling
+user_pref("layout.css.devPixelsPerPx", "1.15");//Scales to UI to 115% scalling without using global scalling. Change this how you see fit.
