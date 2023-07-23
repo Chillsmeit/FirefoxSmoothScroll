@@ -1,0 +1,31 @@
+/* How to
+
+1. Open Firefox profile folder: In address bar write > about:support > Go to "Profile Folder" > "Open Folder"
+   Create a "chrome" (sub)folder in this directory.
+   Save this file as 'userChrome.css' inside "chrome" folder or add code to an existing userContent.css file.
+
+2. Open config area: In address bar write > about:config > modify/add the following values/settings:
+
+   toolkit.legacyUserProfileCustomizations.stylesheets > true   ||  enables custom style sheets
+*/
+
+.pip-wrapper {
+	background-color: transparent !important;
+	stroke:  none !important;
+	top: 8px !important;
+	left: 8px !important;
+	border: none !important;
+	transform: scale(70%) !important;
+}
+.pip-small {
+      box-shadow: none !important;
+    /*square corners */
+  	border-top-left-radius: 6px !important;
+  	border-top-right-radius: 6px !important;
+  	border-bottom-right-radius: 6px !important;
+  	border-bottom-left-radius: 6px !important;
+    border: none !important;
+  }
+.top-site-outer .top-site-icon {
+      background-color: transparent !important;
+}
