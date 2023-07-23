@@ -1,11 +1,11 @@
 # SmoothScrollFirefox
 
 **Works in Windows, Linux and MacOS** *(Linux users, if you use imwheel, scroll down)* <br>
-This repo contains modified `user.js` files in the `Profiles` folder that change the default scrolling behaviour in Firefox.<br>
+This repo contains modified `user.js` scrolling profiles in the `Profiles`.<br>
 These should also work in Librewolf and Mullvad Browser since they're firefox forks.<br>
 
 Just **copy the code of the profile you want and paste it in your `user.js`**<br>
-To find where your `user.js` is, just type `about:support` in the firefox address bar and open the Profile Directory<br>
+To find where your `user.js` is, type `about:support` in firefox and open the "Profile Directory"<br>
 
 **Note:**<br>
 *If you use arkenfox and have `privacy.resistFingerprinting` set to `True`, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.
