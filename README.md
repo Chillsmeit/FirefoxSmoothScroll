@@ -12,7 +12,8 @@ This should only be noticeable in monitors with a higher refresh rate.*
 
 # Linux imwheel users:
 
-**I made a profile to be used alongside imwheel in speed 2 for firefox.**
+**I made a profile to be used alongside imwheel in speed 2 for firefox.
+This is for people that want to use imwheel globally only**
 
 What is imwheel and how to use it:
 
