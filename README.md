@@ -1,5 +1,6 @@
 # SmoothScrollFirefox
 
+**Works in Windows, Linux and MacOS**<br>
 This repo contains modified `user.js` files that change the default scrolling behaviour in Firefox.<br>
 These should work in Librewolf and Mullvad Browser since they're firefox forks.<br>
 
