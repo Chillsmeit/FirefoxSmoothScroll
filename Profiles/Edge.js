@@ -1,6 +1,7 @@
-//**********************//
-//*    Edge Profile    *//
-//**********************//
+// COPY THIS AND PUT IN USER.JS //
+//******************************//
+//*        Edge Profile        *//
+//******************************//
 user_pref("general.smoothScroll",                                       true);// Default Settings Below and edited out
 user_pref("general.smoothScroll.msdPhysics.enabled",                    true);// [false]
 user_pref("general.smoothScroll.msdPhysics.continuousMotionMaxDeltaMS",   12);// [120] fling
@@ -11,18 +12,15 @@ user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant",      600);//
 user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio",     "1.5");// [1.3]
 user_pref("general.smoothScroll.currentVelocityWeighting",             "1.0");// ["0.25"]
 user_pref("general.smoothScroll.stopDecelerationWeighting",            "1.0");// ["0.4"]
-
 // Mousewheel multiply factor - set to false if scrolling is too fast  
 user_pref("mousewheel.system_scroll_override.horizontal.factor",         200);// [200]
 user_pref("mousewheel.system_scroll_override.vertical.factor",           200);// [200]
 user_pref("mousewheel.system_scroll_override_on_root_content.enabled",  true);// [true]
 user_pref("mousewheel.system_scroll_override.enabled",                  true);// [true]
-
 // Pixel count mousewheel scroll multipliers
 user_pref("mousewheel.default.delta_multiplier_x",                       100);// [100]
 user_pref("mousewheel.default.delta_multiplier_y",                       100);// [100]
 user_pref("mousewheel.default.delta_multiplier_z",                       100);// [100]
-
 //
 user_pref("apz.allow_zooming",                                          true);// [true]
 user_pref("apz.force_disable_desktop_zooming_scrollbars",              false);// [false]
@@ -50,6 +48,6 @@ user_pref("mousewheel.acceleration.start",                                 1);//
 user_pref("mousewheel.min_line_scroll_amount",                             4);// [5]
 user_pref("toolkit.scrollbox.horizontalScrollDistance",                    5);// [5]
 user_pref("toolkit.scrollbox.verticalScrollDistance",                      3);// [3]
-//If "privacy.resistFingerprinting" is set to "true", it changes the scrolling behaviour and makes it less smooth/clunky
-//Change it to true if you prefer Privacy over scrolling smoothness
-user_pref("privacy.resistFingerprinting",                              false);//
+// If "privacy.resistFingerprinting" is set to "true", it changes the scrolling behaviour and makes it less smooth/clunky
+// Change it to true if you prefer Privacy over scrolling smoothness
+// user_pref("privacy.resistFingerprinting",                              false);//
