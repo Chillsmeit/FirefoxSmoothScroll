@@ -6,7 +6,8 @@ These should work in Librewolf and Mullvad Browser since they're firefox forks.<
 Just copy the code of the profile you want and paste it in your user.js<br>
 To find where your user.js is, just type ```about:support``` in the firefox address bar and open the Profile Directory<br>
 
-*Note: If you use arkenfox.js and have ```user_pref("privacy.resistFingerprinting", true);``` it will interfere with scrolling smoothness since it locks the framerate to 60hz.*
+**Note:**<br>
+*If you use arkenfox.js and have ```privacy.resistFingerprinting``` - ```True``` it will interfere with scrolling "smoothness" since it locks the framerate to 60hz (this should only be noticeable in monitor with a higher refresh rate*
 
 # Linux imwheel users:
 
