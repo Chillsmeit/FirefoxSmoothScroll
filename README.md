@@ -95,7 +95,7 @@ If you want to change the scrolling speed on a per app basis instead, you can do
 ```
 touch .imwheelrc && nano .imwheelrc
 ```
-Remove the contents that were created by the script (if you used it before) and add the Apps class like this instead: <br>
+Remove the contents that were created by the script (if you used it before) and add the Apps class like this instead:<br>
 *This way, imwheel will only change the mouse speed to double on the specific Apps you chose.*
 ```
 "^(discord-screenaudio|discord|steam)$"
