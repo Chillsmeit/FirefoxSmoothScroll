@@ -1,5 +1,6 @@
 # Check if imwheel exists, create if it doesn't
 # ".*" will affect all applications. Check description if you want per on a per-app basis
+
 if [ ! -f ~/.imwheelrc ]; then
   cat >~/.imwheelrc<<EOF
 ".*"
