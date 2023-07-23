@@ -71,7 +71,7 @@ sudo apt-get install imwheel
 ```
 ## How to use imwheel globally *(needs zenity*):
 ```
-wget https://github.com/Chillsmeit/SmoothScrollFirefox/raw/main/imwheel/imwheel.sh
+wget https://github.com/Chillsmeit/SmoothScrollFirefox/raw/main/Linux_imwheel/imwheelSetGlobalSpeed.sh
 ```
 Make it executable:
 ```
