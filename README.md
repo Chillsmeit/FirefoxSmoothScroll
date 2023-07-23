@@ -1,7 +1,6 @@
 # SmoothScrollFirefox
 
 This repo contains modified user.js files that change the default scrolling behaviour in Firefox.<br>
-I made different versions, these were made on a 35'' UltraWide Monitor, speed settings *may* have to be adjusted.<br>
 These should work in Librewolf and Mullvad Browser since they're firefox forks.<br>
 
 Just copy the code of the profile you want and paste it in your user.js<br>
@@ -23,15 +22,15 @@ For this profile to work the best, use speed 2.<br>
 If your OS supports adding apps/commands directly to the startup, just use that, if not, create a script in ```/etc/profile.d/```<br>
 <br>
 The command to run imwheel on startup would be:  ```imwheel -kill -b "4 5"```<br>
-(By adding -kill -b "4 5" in the end, it will start imwheel and only change the mousewheel. This way it won't interfere with the forward and backward buttons)
+(By adding -kill -b "4 5" in the end, it will start imwheel and only change the mousewheel. This way it won't interfere with the forward and backward buttons in your mouse)
 
 # imwheel per-app basis:
 
-The above steps make imwheel work on all apps. If you want to change the scrolling speed on a per app basis instead, you can do the following **after doing the above steps**, for example:<br>
+The above steps make imwheel work on all apps. If you want to change the scrolling speed on a per app basis instead, you can do the following:<br>
 ```
 nano .imwheelrc
 ```
-Add the apps class like this:
+Remove the contents that were created by the script (if you used it before) and add the Apps class like this instead:
 ```
 "^(discord-screenaudio|discord|steam)$"
 None,      Up,   Button4, 2
@@ -42,10 +41,23 @@ Shift_L,   Up,   Shift_L|Button4
 Shift_L,   Down, Shift_L|Button5
 ```
 To know the window class name in x11, do `xprop | grep WM_CLASS` then click the window you want.
+This way, imwheel will only change the mouse speed to double on the specific Apps you chose.
 
-# Random Firefox Tweaks
+# My Firefox Cosmetic Tweaks
 
-To disable WebRTC (this leaks your IP address even if you use a VPN), turn ```media.peerconnection.enabled``` to False<br>
-To disable ALT opening the firefox menu, turn ```ui.key.menuAccessKeyFocuses``` to False<br>
-To enable autoscrolling in Firefox for Linux, turn ```general.autoScroll``` to True<br>
-To make Firefox UI look bigger without using global scalling, change the ```layout.css.devPixelsPerPx``` value. For example, I use 1.15<br>
+I have some custom changes in my Firefox browser.
+For example Shorter flexible spaces and a smaller and less intrusive PiP icon that shows up in the upper left corner in videos (the first time it shows, it can be a bit bugged, just click on it the first time and restart your browser)
+
+# My Firefox Configs Tweaks (I also use Arkenfox):
+
+Disable WebRTC (this leaks your IP address even if you use a VPN):
+```media.peerconnection.enabled``` - ```False```<br>
+
+Disable ALT opening firefox menu:
+```ui.key.menuAccessKeyFocuses``` - ```False```<br>
+
+Enable autoscrolling for Linux:
+```general.autoScroll``` - ```True```<br>
+
+Make Firefox UI look bigger without using global scalling:
+```layout.css.devPixelsPerPx``` - ```1.15```<br>
