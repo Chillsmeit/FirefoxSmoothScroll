@@ -1,7 +1,7 @@
 # SmoothScrollFirefox
 
 **Works in Windows, Linux and MacOS** *(Linux users, if you use imwheel, scroll down)* <br>
-This repo contains modified `user.js` scrolling profiles in the `Profiles`.<br>
+This repo contains modified `user.js` scrolling profiles in the `Profiles` folder.<br>
 These should also work in Librewolf and Mullvad Browser since they're firefox forks.<br>
 
 Just **copy the code of the profile you want and paste it in your `user.js`**<br>
