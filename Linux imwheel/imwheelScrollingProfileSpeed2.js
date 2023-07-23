@@ -1,5 +1,4 @@
-//
-// COPY THIS AND PUT IN USER.JS
+// COPY THIS AND PUT IN USER.JS //
 //******************************//
 //*      Snappier Profile      *//
 //******************************//
