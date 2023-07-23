@@ -45,6 +45,7 @@ To know the window class name in x11, do `xprop | grep WM_CLASS` then click the 
 
 # Random Firefox Tweaks
 
+To disable WebRTC (this leaks your IP address even if you use a VPN), turn ```media.peerconnection.enabled``` to False<br>
 To disable ALT opening the firefox menu, turn ```ui.key.menuAccessKeyFocuses``` to False<br>
 To enable autoscrolling in Firefox for Linux, turn ```general.autoScroll``` to True<br>
 To make Firefox UI look bigger without using global scalling, change the ```layout.css.devPixelsPerPx``` value. For example, I use 1.15<br>
