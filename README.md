@@ -49,8 +49,8 @@ set `layout.css.devPixelsPerPx` to `1.15`<br>
 
 # Linux imwheel users:
 
-I made a profile to be used alongside imwheel in speed 2 for firefox.<br>
-*This is for people that want to use imwheel globally only.*<br>
+I made a profile to be used alongside imwheel for firefox.<br>
+*This is for people that want to use imwheel globally in speed 2 only.*<br>
 
 ### What is imwheel:
 
