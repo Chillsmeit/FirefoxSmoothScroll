@@ -27,7 +27,7 @@ Smaller and less intrusive PiP icon that shows up in the upper left corner in vi
 <br>
 **To enable these changes**, type `about:support` in the firefox address bar and open the Profile Directory<br>
 Create a folder called `chrome`, inside this folder create two files called `userChrome.css` and `userContent.css`.<br>
-Copy and paste the contents in this repo `Firefox Tweaks/Chrome` to your respective files.
+Copy and paste the contents in the repo folder `Firefox Tweaks/Chrome` to your respective files.
 
 ### Configs Tweaks:
 
