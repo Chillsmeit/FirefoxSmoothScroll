@@ -5,10 +5,10 @@ This repo contains modified `user.js` files that change the default scrolling be
 These should work in Librewolf and Mullvad Browser since they're firefox forks.<br>
 
 Just **copy the code of the profile you want and paste it in your `user.js`**<br>
-To find where your `user.js` is, just type ```about:support``` in the firefox address bar and open the Profile Directory<br>
+To find where your `user.js` is, just type `about:support` in the firefox address bar and open the Profile Directory<br>
 
 **Note:**<br>
-*If you use arkenfox and have ```privacy.resistFingerprinting``` set to ```True```, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.
+*If you use arkenfox and have `privacy.resistFingerprinting` set to `True`, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.
 This should only be noticeable in monitors with a higher refresh rate.*
 
 # My Firefox Tweaks
@@ -17,9 +17,12 @@ Check the `Firefox Tweaks` folder in this repo
 ### Cosmetic Tweaks:
 
 Shorter flexible spaces<br>
-Shorter upper bar and tabs*(optional)*<br>
+Shorter upper bar and tabs *(optional)* <br>
 Smaller and less intrusive PiP icon that shows up in the upper left corner in videos<br>
-*(the first time the Pip icon shows up can be a bit bugged. Just click on it the first time and restart your browser)*
+*(the first time the Pip icon shows up can be a bit bugged. Just click on it the first time and restart your browser)* <br>
+<br>
+To enable these changes, type `about:support` in the firefox address bar and open the Profile Directory<br>
+Create a folder called `chrome`, inside this folder create two files called `userChrome.css` and `userContent.css`
 
 ### Configs Tweaks *(I also use Arkenfox)*:
 In `about:config`:<br>
