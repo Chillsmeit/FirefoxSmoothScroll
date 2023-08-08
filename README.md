@@ -59,11 +59,11 @@ imwheel let's you change your scrolling speed in Linux, you'll need it if you fe
 
 Fedora:
 ```
-rpm -i imwheel
+sudo dnf install imwheel
 ```
 Arch:
 ```
-pacman -S imwheel
+sudo pacman -S imwheel
 ```
 Debian:
 ```
