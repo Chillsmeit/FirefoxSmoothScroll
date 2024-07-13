@@ -1,4 +1,4 @@
-# FirefoxSmoothScrool
+# FirefoxSmoothScroll
 
 **Tries to deliver a smoother scrolling experience in Firefox instead of all that jank** <br>
 Works in any OS, and Firefox forks (Librewolf, Mullvad browser, etc) <br>
