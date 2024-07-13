@@ -4,14 +4,16 @@
 Works in any OS, and Firefox forks (Librewolf, Mullvad browser, etc) <br>
 
 Just **copy this repository `user.js` to your Firefox profile folder**<br>
-How do you find you Firefox profile folder?
+How do you find you Firefox profile folder?<br>
 In the Firefox address bar type `about:support` and click "Open Directory" in **Profile Directory**<br>
 
-**Note:**<br>
-*If you use arkenfox, Librewolf or Mullvad and have `privacy.resistFingerprinting` set to `True`, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.
-This should only be noticeable in monitors with a higher refresh rate.*
+#### Note:
+**If you use Arkenfox, Librewolf or Mullvad:** <br>
+When `privacy.resistFingerprinting` is set to `True`, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.<br>
+This should only be noticeable in monitors with a higher refresh rate.*<br>
+The user.js by default sets it to false.
 
-# My Firefox Tweaks
+# Inside the user.js there's a section called 
 Check the `Firefox Tweaks` folder in this repo
 
 ### Cosmetic Tweaks:
