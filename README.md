@@ -1,12 +1,10 @@
 # FirefoxSmoothScrool
 
+**Tries to deliver a smoother scrolling experience in Firefox instead of all that jank** <br>
+Works in any OS, and Firefox forks (Librewolf, Mullvad browser, etc) <br>
 
-**Works in Windows, Linux and MacOS** *(Linux users, if you use imwheel, scroll down)* <br>
-This repo contains modified `user.js` scrolling profiles in the `Profiles` folder.<br>
-These should also work in Librewolf and Mullvad Browser since they're firefox forks.<br>
-
-Just **copy the code of the profile you want and paste it in your `user.js`**<br>
-To find where your `user.js` is, type `about:support` in firefox and open the "Profile Directory"<br>
+Just **copy this repository `user.js` to your Firefox profile folder**<br>
+To find where your `user.js` is, type `about:support` in Firefox and open the "Profile Directory"<br>
 
 **Note:**<br>
 *If you use arkenfox and have `privacy.resistFingerprinting` set to `True`, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.
