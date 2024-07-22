@@ -1,24 +1,24 @@
 # FirefoxSmoothScroll
 
 **Tries to deliver a smoother scrolling experience in Firefox** <br>
-Works in any OS, and Firefox forks (Librewolf, Mullvad browser, etc) <br>
+- *Works in any OS, and Firefox forks (Librewolf, Mullvad browser, etc)* <br>
 
-Just **copy this repository `user.js` to your Firefox profile folder**<br>
-How do you find you Firefox profile folder?<br>
-In the Firefox address bar type `about:support` and click "Open Directory" in **Profile Directory**<br>
+#### How to "Install"?
+- Just copy this repository `user.js` to your Firefox profile folder<br>
+#### How do you find your Firefox profile folder?
+- In the Firefox address bar type `about:support` click `Open Directory` in `Profile Directory`
+- Drag and drop the user.js into the folder
 
-#### Note:
-**If you use Arkenfox, Librewolf or Mullvad:** <br>
-When `privacy.resistFingerprinting` is set to `True`, it will interfere with scrolling "smoothness" since it locks the framerate to 60hz.<br>
-This should only be noticeable in monitors with a higher refresh rate.*<br>
-The user.js by default sets it to false.
 
-# Inside the user.js there's a section called 
-Check the `Firefox Tweaks` folder in this repo
+#### If you use Firefox with Arkenfox, Librewolf or Mullvad:
+- The flag `privacy.resistFingerprinting` when set `True` locks the framerate to 60hz
+- This should only be noticeable in monitors with a higher refresh rate
+- My user.js by default sets it to false.
 
-### Cosmetic Tweaks:
 
-Shorter flexible spaces like this:<br>
+#### Cosmetic Tweaks:
+
+- Shorter flexible spaces like this:<br>
 ![Untitled2](https://github.com/Chillsmeit/SmoothScrollFirefox/assets/93094077/9acca1d7-8b90-432b-b457-6b827ecd89bc) <br>
 ![Untitled](https://github.com/Chillsmeit/SmoothScrollFirefox/assets/93094077/9f6aa784-6c26-4d55-ab5e-e1f433ee63db) 
 
