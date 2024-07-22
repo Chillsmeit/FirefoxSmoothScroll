@@ -13,12 +13,10 @@ user_pref("general.smoothScroll.msdPhysics.slowdownSpringConstant",      450);//
 user_pref("general.smoothScroll.msdPhysics.slowdownMinDeltaRatio;0",       4);//
 user_pref("general.smoothScroll.currentVelocityWeighting",             "1.0");// ["0.25"]
 user_pref("general.smoothScroll.stopDecelerationWeighting",            "1.0");// ["0.4"]
-// Mousewheel multiply factor - set to false if scrolling is too fast  
 user_pref("mousewheel.system_scroll_override.horizontal.factor",         200);// [200]
 user_pref("mousewheel.system_scroll_override.vertical.factor",           200);// [200]
 user_pref("mousewheel.system_scroll_override_on_root_content.enabled",  true);// [true]
 user_pref("mousewheel.system_scroll_override.enabled",                  true);// [true]
-// Pixel count mousewheel scroll multipliers
 user_pref("mousewheel.default.delta_multiplier_x",                       100);// [100]
 user_pref("mousewheel.default.delta_multiplier_y",                       100);// [100]
 user_pref("mousewheel.default.delta_multiplier_z",                       100);// [100]

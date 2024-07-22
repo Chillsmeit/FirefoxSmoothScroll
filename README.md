@@ -7,13 +7,13 @@
 - Just copy this repository `user.js` to your Firefox profile folder<br>
 #### How do you find your Firefox profile folder?
 - In the Firefox address bar type `about:support` click `Open Directory` in `Profile Directory`
-- Drag and drop the user.js into the folder
+- Drag and drop the `user.js` into the folder
 
 
 #### If you use Firefox with Arkenfox, Librewolf or Mullvad:
 - The flag `privacy.resistFingerprinting` when set `True` locks the framerate to 60hz
 - This should only be noticeable in monitors with a higher refresh rate
-- My user.js by default sets it to false.
+- My `user.js` by default sets it to `false`.
 
 
 #### Optional:
