@@ -72,7 +72,7 @@ user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 //Breaks some Websites if set to 1
 //user_pref("network.http.referer.XOriginPolicy", 0);//Breaks some Websites if set to 1
 
-//Disables WebRTC which can leak your real IP even when using a VPN. Needed by Websites that use DRM like Spotify, etc
+//Disables WebRTC which can leak your real IP even when using a VPN.
 //user_pref("media.peerconnection.enabled", false);
 
 //**************//
