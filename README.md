@@ -9,17 +9,17 @@
 - In the Firefox address bar type `about:support` click `Open Directory` in `Profile Directory`
 - Drag and drop the `user.js` into the folder
 
-
-#### If you use Firefox with Arkenfox, Librewolf or Mullvad:
-- The flag `privacy.resistFingerprinting` when set `True` locks the framerate to 60hz
-- This should only be noticeable in monitors with a higher refresh rate
-- My `user.js` by default sets it to `false`, you lose fingerprint protection
-
 #### Arkenfox users
 
 - Arkenfox uses its own `user.js`, so don't overwrite it.
 - Instead, rename this file to `user-overrides.js` and put it in your profile folder.
 - Arkenfox's updater merges it into the final `user.js` automatically, so your settings survive updates.
+
+#### ⚠️ Fingerprinting protection, if you use Firefox with Arkenfox, Librewolf or Mullvad
+
+- `privacy.resistFingerprinting` locks the framerate to 60Hz, which is why scrolling feels clunky with it on. 
+- **This `user.js` sets it to `false`, which disables fingerprinting protection.**
+- That protection is most of the point of these browsers, so set it back to `true` and accept the 60Hz scrolling if you want it.
 
 #### Optional:
 - I included in this repository two cosmetic tweaks.
