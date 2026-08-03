@@ -13,8 +13,13 @@
 #### If you use Firefox with Arkenfox, Librewolf or Mullvad:
 - The flag `privacy.resistFingerprinting` when set `True` locks the framerate to 60hz
 - This should only be noticeable in monitors with a higher refresh rate
-- My `user.js` by default sets it to `false`.
+- My `user.js` by default sets it to `false`, you lose fingerprint protection
 
+#### Arkenfox users
+
+- Arkenfox uses its own `user.js`, so don't overwrite it.
+- Instead, rename this file to `user-overrides.js` and put it in your profile folder.
+- Arkenfox's updater merges it into the final `user.js` automatically, so your settings survive updates.
 
 #### Optional:
 - I included in this repository two cosmetic tweaks.
